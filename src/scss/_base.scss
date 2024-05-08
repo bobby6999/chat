@@ -39,6 +39,24 @@ video {
   vertical-align: middle;
 }
 
-/* ====================================
-// base rules
-// ==================================== */
+.message-is-mine {
+  display: flex;
+  height: 37px;
+  padding: 10px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #5200ff;
+}
+.message {
+  display: inline-flex;
+  height: 37px;
+  padding: 10px;
+  justify-content: right;
+  align-items: right;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #a691d1;
+}
